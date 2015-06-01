@@ -1,0 +1,11 @@
+<div>
+  <form ng-submit="login()">
+    username</br>
+    <input type="email" name="username" ng-model="username" id="" required>
+    password</br>
+    <input type="text" name="password" ng-model="password" required>
+    <button type="submit">login</button>
+  </form>
+</div>
+<button ng-click="logout()">Logout</button>
+<div ng-show="auth">Hello</div>
